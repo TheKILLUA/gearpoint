@@ -1,5 +1,40 @@
-# Vue 3 + TypeScript + Vite
+# ⚙️ GearPoint – Magazin Online de Tehnică Auto
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**GearPoint** este o aplicație web modernă pentru un magazin online specializat în vânzarea de tehnică și echipamente de calitate. Proiectul este realizat cu Vue 3 și Firebase, oferind funcționalități avansate precum autentificare, coș de cumpărături, sistem multilingv și integrări Google (Analytics, reCAPTCHA).
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 🔍 Funcționalități principale
+
+- ✅ Autentificare cu email/parolă și cont Google (Firebase Auth)
+- 🛒 Coș de cumpărături cu persistență locală (localStorage + Pinia)
+- 🗂️ Magazin cu categorii, filtre, sortare și paginare
+- 🌍 Suport multilingv: română și engleză (`vue-i18n`)
+- 📦 Gestionare produse și categorii în Firestore
+- 📈 Google Analytics și Search Console
+- 🛡️ Google reCAPTCHA integrat pentru protecție anti-bot
+- 📱 Responsive design cu Tailwind CSS
+- ☁️ Publicat pe InfinityFree Hosting
+
+---
+
+## 🛠️ Tehnologii utilizate
+
+- [Vue 3 + Composition API](https://vuejs.org)
+- [Vite](https://vitejs.dev)
+- [Pinia](https://pinia.vuejs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Firebase (Auth, Firestore, Analytics)](https://firebase.google.com)
+- [vue-i18n](https://kazupon.github.io/vue-i18n/)
+- [Font Awesome](https://fontawesome.com)
+- [InfinityFree Hosting](https://infinityfree.net)
+- [Google reCAPTCHA v2](https://www.google.com/recaptcha)
+
+---
+
+## 🔧 Instalare locală
+
+```bash
+git clone https://github.com/TheKILLUA/gearpoint.git
+cd gearpoint
+npm install
